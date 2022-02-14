@@ -64,10 +64,14 @@ MRP int
 
 *NOTE:- There is 19 database connector statement which all need to change according to your device.*
 
-5. Category, Sub-Category, Products are to be manually added to the code as well as normally added to the database to execute further instructions in the system. (To manually add items jump to line no: 1325.)
+5. *Category, Sub-Category, Products* are to be manually added to the code as well as normally added to the database to execute further instructions in the system. (To manually add items jump to line no: *1325*.)
 
 *NOTE:- Data added to the database is to be the same as the data entered in the source code. Also, space gap is not allowed in sub-categories and products, adding gap may result in an error. Use subtract symbol or underscore instead.*
 
 # Software Requrements
 1. [Python 3.9](https://www.python.org)
 2. [MySQL](https://www.mysql.com/)
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
