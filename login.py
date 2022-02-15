@@ -1466,8 +1466,8 @@ def employee_window():
     def welcome_bill():
         txtarea.delete("1.0",END)
         txtarea.insert(END,"\n \t\t\t\t   ABC GROCERY STORE ")
-        txtarea.insert(END,"\n \t\t\t\t   GT ROAD, KULTORA")
-        txtarea.insert(END,"\n \t\t\t\t     KULTI-713359 ") 
+        txtarea.insert(END,"\n \t\t\t\t   GT ROAD, RAJ GHAT")
+        txtarea.insert(END,"\n \t\t\t\t     DELHI-273005 ") 
         txtarea.insert(END,"\n \t\t\t\t PHONE: +91-1234567890 \n")
         txtarea.insert(END,"   "+str("=")*78)
         txtarea.insert(END,f"\n    Bill number  : ")
