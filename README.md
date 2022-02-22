@@ -3,7 +3,7 @@
 
 This program has been made as a school project using Python and MySQL.
 
-# Database
+# Database Information
 
 Database name: *grocery_store*
 
@@ -54,7 +54,7 @@ MRP int
 );
 ```
 # General Instructions
-1. The database is to be created manually.
+1. The database is to be created manually, tables will be created automatically after first run.
 
 2. [tkinter](https://docs.python.org/3/library/tkinter.html) and [pillow](https://pypi.org/project/Pillow/) modules must be installed on your device to run the program. 
 
