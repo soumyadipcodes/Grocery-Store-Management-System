@@ -26,7 +26,7 @@ Database name: *grocery_store*
 ```bash
 CREATE DATABASE grocery_store;
 ```
-*Note-* Database need to be created manually.
+*Note:- Database need to be created manually.*
 
 # Tables Information
 
@@ -72,7 +72,7 @@ stock_quantity int,
 MRP int
 );
 ```
-*Note-* Tables will be created automatically after first run.
+*Note:- Tables will be created automatically after first run.*
 
 
 # Software Requrements
