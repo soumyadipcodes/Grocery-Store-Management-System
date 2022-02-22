@@ -1,7 +1,23 @@
 
+
 # Grocery-Management-System
 
 This program has been made as a school project using Python and MySQL.
+
+# General Instructions
+1. The database is to be created manually, tables will be created automatically after first run.
+
+2. [tkinter](https://docs.python.org/3/library/tkinter.html) and [pillow](https://pypi.org/project/Pillow/) modules must be installed on your device to run the program. 
+
+3. The admin account can only be created manually from the MySQL command line. You will need to at least create one admin account to get started with the system.
+
+4. Host, Username, Password is set to the default value, change it according to your device to connect the program with the database.
+
+*NOTE:- There is 19 database connector statement which all need to change according to your device.*
+
+5. *Category, Sub-Category, Products* are to be manually added to the code as well as normally added to the database to execute further instructions in the system. (To manually add items jump to line no: *1333*.)
+
+*NOTE:- Data added to the database is to be the same as the data entered in the source code. Also, space gap is not allowed in sub-categories and products, adding gap may result in an error. Use subtract symbol or underscore instead.*
 
 # Database Information
 
@@ -10,6 +26,9 @@ Database name: *grocery_store*
 ```bash
 CREATE DATABASE grocery_store;
 ```
+*Note-* Database need to be created manually.
+
+# Tables Information
 
 Tables: *admin_register, employees, invoices, products*
 
@@ -53,20 +72,8 @@ stock_quantity int,
 MRP int
 );
 ```
-# General Instructions
-1. The database is to be created manually, tables will be created automatically after first run.
+*Note-* Tables will be created automatically after first run.
 
-2. [tkinter](https://docs.python.org/3/library/tkinter.html) and [pillow](https://pypi.org/project/Pillow/) modules must be installed on your device to run the program. 
-
-3. The admin account can only be created manually from the MySQL command line. You will need to at least create one admin account to get started with the system.
-
-4. Host, Username, Password is set to the default value, change it according to your device to connect the program with the database.
-
-*NOTE:- There is 19 database connector statement which all need to change according to your device.*
-
-5. *Category, Sub-Category, Products* are to be manually added to the code as well as normally added to the database to execute further instructions in the system. (To manually add items jump to line no: *1325*.)
-
-*NOTE:- Data added to the database is to be the same as the data entered in the source code. Also, space gap is not allowed in sub-categories and products, adding gap may result in an error. Use subtract symbol or underscore instead.*
 
 # Software Requrements
 1. [Python 3.9](https://www.python.org)
