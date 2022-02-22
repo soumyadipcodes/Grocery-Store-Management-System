@@ -1,6 +1,6 @@
 
 
-# Grocery-Management-System
+# Grocery-Store-Management-System
 
 This program has been made as a school project using Python and MySQL.
 
