@@ -26,7 +26,7 @@ Database name: *grocery_store*
 ```bash
 CREATE DATABASE grocery_store;
 ```
-*Note:- Database need to be created manually.*
+*Note:- The database is to be created manually.*
 
 # Tables Information
 
