@@ -13,6 +13,13 @@ mycon = sql.connect(host="localhost", user="root", password="passwd", database="
 cur1 = mycon.cursor()
 cur2 = mycon.cursor()
 product_cursor = mycon.cursor()
+table_cursor=mycon.cursor()
+
+table_cursor.execute('create table if not exists admin_register (id int primary key not null,username varchar(20),password varchar(50))')
+table_cursor.execute('create table if not exists employees (employee_id int primary key not null,username varchar(20),password varchar(50),employee_name varchar(300),contact_num varchar(10),address varchar(300),aadhar_num varchar(12))')    
+table_cursor.execute('create table if not exists invoices (bill_number int primary key not null,date varchar(10),customer_name varchar(300),customer_contact varchar(10))')     
+table_cursor.execute('create table if not exists products (product_id int primary key not null,category varchar(300),sub_category varchar(300),product_name varchar(300),stock_quantity int,MRP int)')
+
 
 def start_window():
     ################################################## START WINDOW ###############################################################
