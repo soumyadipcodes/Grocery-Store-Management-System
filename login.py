@@ -1740,7 +1740,7 @@ def employee_window():
 root = Tk()
 root.title("Grocery Store Management System")
 root.geometry("1300x750+100+0")
-root.resizable(True,True)
+root.resizable(False,False)
 
 start_window()
 
