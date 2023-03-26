@@ -238,7 +238,7 @@ def about_us_window():
     root1.title("About Us")
     text1 = tk.Text(root1, height=6, width=85)
     root1.resizable(False,False)
-    text1.insert(tk.INSERT,"\n\tThis program has been made as a project for school by Soumyadip Mitra\n\n\n\t\t\t      Copyright: @soumyadip2148")
+    text1.insert(tk.INSERT,"\n\tThis program has been made as a project for school by Soumyadip Mitra\n\n\n\t\t\t      Copyright: @soumyadipcodes")
     text1.pack()
     root1.mainloop()
     root1.mainloop()
